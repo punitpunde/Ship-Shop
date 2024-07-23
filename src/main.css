@@ -1,0 +1,79 @@
+.wrapper {
+  min-height: 100vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dropdown button {
+  width: 100px;
+  opacity: 0.8;
+}
+
+.dropdown button::after {
+  display: none;
+}
+
+/* OverLay */
+#overlay {
+  padding: 100px;
+  padding-top: 200px;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  z-index: 10000;
+}
+
+#overlay .spinner-border {
+  min-width: 10vw;
+  min-height: 10vw;
+  font-size: 30px;
+}
+
+/* Single */
+
+#single {
+  max-width: 1000px;
+  min-height: 500px;
+}
+
+#single img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+#single button {
+  width: 180px;
+}
+
+/* Line */
+
+.line {
+  opacity: 0.7;
+  height: 5px !important;
+}
+
+/* Product */
+
+#product img {
+  padding: 10px 5px 0;
+  height: 140px;
+  object-fit: contain;
+}
+
+/* Cart */
+#cart .description {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+/* Cart Numbers */
+#cart-numbers li:last-child span:last-child {
+  font-weight: bolder;
+}
